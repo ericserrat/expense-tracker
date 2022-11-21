@@ -16,8 +16,8 @@ function ExpenseItem(props) {
 
 ExpenseItem.propTypes = {
   title: PropTypes.string,
-  date: PropTypes.date,
-  amount: PropTypes.float,
+  date: PropTypes.instanceOf(Date),
+  amount: PropTypes.number,
 };
 
 export default ExpenseItem;

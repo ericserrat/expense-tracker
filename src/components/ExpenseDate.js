@@ -16,7 +16,7 @@ function ExpenseDate(props) {
 }
 
 ExpenseDate.propTypes = {
-  date: PropTypes.date,
+  date: PropTypes.instanceOf(Date),
 };
 
 export default ExpenseDate;
