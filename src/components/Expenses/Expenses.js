@@ -1,3 +1,4 @@
+import React from "react";
 import PropTypes from 'prop-types';
 import Card from "../UI/Card";
 import ExpenseItem from "./ExpenseItem";
