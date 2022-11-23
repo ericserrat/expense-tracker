@@ -10,7 +10,7 @@ const ExpenseItem = (props) => {
 
   const buttonClickHandler = () => {
     setTitle('Testing');
-  }
+  };
 
   return (
     <Card className='expense-item'>
