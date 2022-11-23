@@ -16,8 +16,7 @@ const Expenses = (props) => {
     <div>
       <Card className='expenses'>
         <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
-        {/* eslint-disable-next-line react/jsx-key */}
-        {props.items.map(e => <ExpenseItem title={e.title} amount={e.amount} date={e.date}/> )}
+        {props.items.map(e => <ExpenseItem key={e.id} title={e.title} amount={e.amount} date={e.date}/> )}
       </Card>
     </div>
   );
