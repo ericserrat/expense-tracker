@@ -44,6 +44,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className='new-expense__actions'>
+        <button type='button' onClick={props.onCancel}>Cancel</button>
         <button type='submit'>Add expense</button>
       </div>
     </form>
@@ -51,7 +52,8 @@ const ExpenseForm = (props) => {
 };
 
 ExpenseForm.propTypes = {
-  onSaveExpenseData: PropTypes.func
+  onSaveExpenseData: PropTypes.func,
+  onCancel: PropTypes.func,
 };
 
 export default ExpenseForm;
