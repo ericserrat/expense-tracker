@@ -1,7 +1,6 @@
 import React from 'react';
 import ExpenseForm from './ExpenseForm';
 import PropTypes from 'prop-types';
-
 import './NewExpense.css';
 
 const NewExpense = (props) => {
