@@ -1,6 +1,8 @@
 # Expense tracker
 
-Project to track the expenses using React
+Made to learn React basics.
+
+Project to track the expenses.
 
 ## Available Scripts
 
